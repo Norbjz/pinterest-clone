@@ -12,14 +12,14 @@ html, body {
 
 nav {    
     width: 100%;
-    height: 50px;
+    height: 90px;
     background-color: white;
-    position: sticky;
+    position: fixed;
+    z-index: 3;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
-    padding: 0 30px;
+    padding: 20px 30px;
 }
 
 .logo {
@@ -81,6 +81,10 @@ input {
     border: transparent;
 }
 
+input:hover {
+    background-color: rgb(218, 218, 218);
+}
+
 input:focus { 
     background-image: none;
     outline: none;
@@ -96,7 +100,7 @@ input:focus {
 /* Header */
 
 header {
-    padding-top: 50px;
+    padding-top: 130px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -190,21 +194,19 @@ div p {
 
 main {
     width: 95%;
-    border: 2px solid black; 
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
+    margin: 20px auto;
+    columns: 7;
+    column-gap: 10px;
 }
 
-figure {
-    border: 2px solid red;
-    width: 240px;
-    margin: 10px;
-    margin-bottom: 25px;
+main figure {
+    width: 230px;
+    margin: 0 0 25px;
+    overflow: hidden;
+    break-inside: avoid;
 }
 
-img {
-    border: 2px solid black; 
-    width: 240px;
+figure img { 
+    max-width: 100%;
     border-radius: 20px;
 }
