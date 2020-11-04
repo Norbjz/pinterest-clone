@@ -1,32 +1,48 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
-<link rel="manifest" href="./favicon/site.webmanifest">
-<link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
-<link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
+
 <body>
     <!-- Barra de navegación -->
 
     <nav>
-        <a href="#"><figure>
-            <img class="logo" src="./img/logo.png" alt="Logo pinterest">
-        </figure></a>
-        <a class="nav_home" href="#"><p class="home">Home</p></a>
-        <a class="nav_follow" href="#"><p>Following</p></a>
+        <a href="#">
+            <figure>
+                <img class="logo" src="./img/logo.png" alt="Logo pinterest">
+            </figure>
+        </a>
+        <a class="nav_home" href="#">
+            <p class="home">Home</p>
+        </a>
+        <a class="nav_follow" href="#">
+            <p>Following</p>
+        </a>
         <input class="input_img" type="text" placeholder="Search">
-        <a href="#"><ion-icon class="nav_button" name="notifications"></ion-icon></a> 
-        <a href="#"><ion-icon class="nav_button" name="chatbubble-ellipses"></ion-icon></a> 
-        <a href="#"><ion-icon class="nav_button" name="logo-github"></ion-icon></a> 
-        <a href="#"><ion-icon class="nav_button" name="chevron-down"></ion-icon></a> 
+        <a href="#">
+            <ion-icon class="nav_button" name="notifications"></ion-icon>
+        </a>
+        <a href="#">
+            <ion-icon class="nav_button" name="chatbubble-ellipses"></ion-icon>
+        </a>
+        <a href="#">
+            <ion-icon class="nav_button" name="logo-github"></ion-icon>
+        </a>
+        <a href="#">
+            <ion-icon class="nav_button" name="chevron-down"></ion-icon>
+        </a>
     </nav>
 
     <!-- Header -->
@@ -34,150 +50,806 @@
     <header>
         <h2>Ideas in your feed are based on these topics</h2>
         <ion-icon class="header_close" name="close"></ion-icon>
-        <div class="head_card card1"><p>Modern house design</p></div>
-        <div class="head_card card2"><p>Men's health fitness</p></div>
-        <div class="head_card card3"><p>Anime</p></div>
-        <div class="head_card card4"><p>Astronomy</p></div>
-        <div class="head_card card5"><p>Men's bussiness outfits</p></div>
-        <div class="head_card card_add"><ion-icon class="header_card_add" name="add"></ion-icon></div>
+        <div class="head_card card1">
+            <p>Modern house design</p>
+        </div>
+        <div class="head_card card2">
+            <p>Men's health fitness</p>
+        </div>
+        <div class="head_card card3">
+            <p>Anime</p>
+        </div>
+        <div class="head_card card4">
+            <p>Astronomy</p>
+        </div>
+        <div class="head_card card5">
+            <p>Men's bussiness outfits</p>
+        </div>
+        <div class="head_card card_add">
+            <ion-icon class="header_card_add" name="add"></ion-icon>
+        </div>
     </header>
 
     <!-- Main -->
 
     <main>
-        <figure >
+        <figure>
             <img src="./img/01.jpg" alt="">
+            <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
+                </div>
+            </div>
         </figure>
         <figure>
             <img src="./img/02.jpg" alt="">
+            <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
         </figure>
         <figure>
             <img src="./img/03.jpg" alt="">
+                        <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
+                </div>
+            </div>
         </figure>
         <figure>
             <img src="./img/04.jpg" alt="">
+                        <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
+                </div>
+            </div>
         </figure>
         <figure>
             <img src="./img/05.jpg" alt="">
+                        <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
+                </div>
+            </div>
         </figure>
         <figure>
             <img src="./img/06.jpg" alt="">
+                        <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
+                </div>
+            </div>
         </figure>
         <figure>
             <img src="./img/08.jpg" alt="">
+                        <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
+                </div>
+            </div>
         </figure>
-        <figure >
+        <figure>
             <img src="./img/09.jpg" alt="">
+                        <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
+                </div>
+            </div>
         </figure>
         <figure>
             <img src="./img/10.jpg" alt="">
+                        <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
+                </div>
+            </div>
         </figure>
         <figure>
             <img src="./img/11.jpg" alt="">
+                        <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
+                </div>
+            </div>
         </figure>
         <figure>
             <img src="./img/12.jpg" alt="">
+                        <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
+                </div>
+            </div>
         </figure>
         <figure>
             <img src="./img/13.jpg" alt="">
+                        <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
+                </div>
+            </div>
         </figure>
         <figure>
             <img src="./img/14.jpg" alt="">
+                        <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
+                </div>
+            </div>
         </figure>
         <figure>
             <img src="./img/15.jpg" alt="">
+                        <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
+                </div>
+            </div>
         </figure>
-        <figure >
+        <figure>
             <img src="./img/16.jpg" alt="">
+                        <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
+                </div>
+            </div>
         </figure>
         <figure>
             <img src="./img/18.jpg" alt="">
+                        <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
+                </div>
+            </div>
         </figure>
         <figure>
             <img src="./img/19.jpg" alt="">
+                        <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
+                </div>
+            </div>
         </figure>
         <figure>
             <img src="./img/20.jpg" alt="">
+                        <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
+                </div>
+            </div>
         </figure>
         <figure>
             <img src="./img/21.jpg" alt="">
+                        <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
+                </div>
+            </div>
         </figure>
         <figure>
             <img src="./img/22.jpg" alt="">
+                        <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
+                </div>
+            </div>
         </figure>
-        <figure >
+        <figure>
             <img src="./img/23.jpg" alt="">
+                        <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
+                </div>
+            </div>
         </figure>
         <figure>
             <img src="./img/24.jpg" alt="">
+                        <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
+                </div>
+            </div>
         </figure>
         <figure>
             <img src="./img/25.jpg" alt="">
+                        <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
+                </div>
+            </div>
         </figure>
         <figure>
             <img src="./img/26.jpg" alt="">
+                        <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
+                </div>
+            </div>
         </figure>
         <figure>
             <img src="./img/27.jpg" alt="">
+                        <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
+                </div>
+            </div>
         </figure>
         <figure>
             <img src="./img/28.jpg" alt="">
+                        <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
+                </div>
+            </div>
         </figure>
         <figure>
             <img src="./img/29.jpg" alt="">
+                        <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
+                </div>
+            </div>
         </figure>
-        <figure >
+        <figure>
             <img src="./img/30.jpg" alt="">
+                        <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
+                </div>
+            </div>
         </figure>
         <figure>
             <img src="./img/31.jpg" alt="">
+                        <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
+                </div>
+            </div>
         </figure>
         <figure>
             <img src="./img/34.jpg" alt="">
+                        <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
+                </div>
+            </div>
         </figure>
         <figure>
             <img src="./img/35.jpg" alt="">
+                        <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
+                </div>
+            </div>
         </figure>
         <figure>
             <img src="./img/36.jpg" alt="">
+                        <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
+                </div>
+            </div>
         </figure>
         <figure>
             <img src="./img/37.jpg" alt="">
+                        <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
+                </div>
+            </div>
         </figure>
         <figure>
             <img src="./img/38.jpg" alt="">
+                        <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
+                </div>
+            </div>
         </figure>
         <figure>
             <img src="./img/39.jpg" alt="">
+                        <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
+                </div>
+            </div>
         </figure>
-        <figure >
+        <figure>
             <img src="./img/40.jpg" alt="">
+                        <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
+                </div>
+            </div>
         </figure>
         <figure>
             <img src="./img/41.jpg" alt="">
+                        <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
+                </div>
+            </div>
         </figure>
         <figure>
             <img src="./img/44.jpg" alt="">
+                        <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
+                </div>
+            </div>
         </figure>
         <figure>
             <img src="./img/45.jpg" alt="">
+                        <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
+                </div>
+            </div>
         </figure>
         <figure>
             <img src="./img/46.jpg" alt="">
+                        <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
+                </div>
+            </div>
         </figure>
         <figure>
             <img src="./img/47.jpg" alt="">
+                        <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
+                </div>
+            </div>
         </figure>
         <figure>
             <img src="./img/48.jpg" alt="">
+                        <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
+                </div>
+            </div>
         </figure>
         <figure>
             <img src="./img/49.png" alt="">
+                        <div class="img_options">
+                <div class="img_add">
+                    <p class="img_text">Ropa<ion-icon class="drop-arrow" name="chevron-down"></ion-icon>
+                    </p>
+                    <input class="img_btn" type="button" value="Save">
+                </div>
+                <div class="img_icons">
+                    <span class="icon_share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    </span>
+                    <span class="icon_select">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </span>
+                </div>
+            </div>
         </figure>
 
-        
+
     </main>
 
     <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
 </body>
+
 </html>

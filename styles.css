@@ -201,12 +201,115 @@ main {
 
 main figure {
     width: 230px;
+    height: 100%;
     margin: 0 0 25px;
     overflow: hidden;
     break-inside: avoid;
+    position: relative;
 }
 
 figure img { 
     max-width: 100%;
     border-radius: 20px;
+}
+
+.img_options {
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 20px;
+    color: black;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+    margin-top: -10px;
+}
+
+figure:hover .img_options {
+    opacity: 1;
+    cursor: pointer;
+}
+
+div .img_text {
+    color: black;
+    background-color: white;
+    width: 155px;
+    height: 40px;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    opacity: 85%;
+}
+
+.img_text:hover {
+    opacity: 98%;
+}
+
+
+.img_add {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img_btn {
+    width: 55px;
+    height: 40px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 10px 10px 0px;
+    padding-right: 20px;
+    background-color: rgb(230, 0, 35);
+    color: white;
+    margin-left: -8px;
+    opacity: 85%;
+}
+
+.img_btn:hover {
+    opacity: 98%;
+    background-color: rgb(230, 0, 35);
+    cursor: pointer;
+}
+
+div .img_icons {
+    font-size: 22px;
+    position: absolute;
+    bottom: 20px;
+    margin-left: 148px;
+    margin-bottom: 5%;
+    display: flex;
+}
+
+.icon_share {
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    opacity: 85%;
+}
+
+.icon_select {
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 85%;
+}
+
+.icon_share:hover {
+    opacity: 98%;
+}
+
+.icon_select:hover {
+    opacity: 98%;
 }
