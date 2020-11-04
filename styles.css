@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    width: 100%;
+
+}
+
+nav {    
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0 30px;
+}
+
+.logo {
+    width: 24px;
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+
+a:hover:not(.nav_home) {
+    background-color: rgb(239, 239, 239);
+    border-radius: 25px;
+}
+
+.home {
+    color: white;
+}
+
+p {
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.nav_home {
+    width: 80px;
+    background-color: black;
+    border-radius: 25px;
+}
+
+
+.nav_follow {
+    width: 110px;
+}
+
+.nav_follow:hover {
+    border-radius: 25px;
+}
+
+.input_img {
+    background-image: url(img/search_icon.png);
+    background-repeat: no-repeat;
+    background-position: 1% 50%;
+    text-indent: 20px;
+}
+
+input {
+    width: 80%;
+    height: 45px;
+    background-color: rgb(239, 239, 239);
+    border-radius: 25px;
+    padding: 8px 8px 8px 25px;
+    border: transparent;
+}
+
+input:focus { 
+    background-image: none;
+    outline: none;
+    text-indent: 0px;
+    border: 3px solid rgb(127, 193, 255)
+}
+
+.nav_button {
+    font-size: 28px;
+    color: rgb(118, 118, 118);
+}
+
+/* Header */
+
+header {
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h2 {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header_close {
+    position: absolute;
+    right: 50px;
+    font-size: 40px;
+}
+
+.head_card {
+    width: 120px;
+    height: 120px;
+    margin: 25px 4px;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.head_card:hover {
+    cursor: pointer;
+}
+
+div p {
+    color: white;
+    margin: 8px;
+    font-size: 14px;
+}
+
+.card1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./img/Home.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./img/Gym.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./img/Anime.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./img/Astrology.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card5 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./img/Bussiness.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card_add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(226, 226, 226);
+}
+
+.card_add:hover {
+    background-color: rgb(218, 218, 218);
+}
+
+.header_card_add {
+    font-size: 45px;
+    font-weight: 800;
+    color: black;
+}
+
+/* Main */
+
+main {
+    width: 95%;
+    border: 2px solid black; 
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+figure {
+    border: 2px solid red;
+    width: 240px;
+    margin: 10px;
+    margin-bottom: 25px;
+}
+
+img {
+    border: 2px solid black; 
+    width: 240px;
+    border-radius: 20px;
+}
