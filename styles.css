@@ -313,3 +313,44 @@ div .img_icons {
 .icon_select:hover {
     opacity: 98%;
 }
+
+@media (max-width: 1695px) {
+    main {
+        columns: 6;
+    }
+}
+
+@media (max-width: 1500px) {
+    main {
+        width: 95%;
+        columns: 5;
+    }
+}
+
+@media (max-width: 1250px) {
+    main {
+        width: 90%;
+        columns: 4;
+    }
+}
+
+@media (max-width: 1020px) {
+    main {
+        width: 85%;
+        columns: 3;
+    }
+}
+
+@media (max-width: 820px) {
+    main {
+        width: 80%;
+        columns: 2;
+    }
+}
+
+@media (max-width: 570px) {
+    main {
+        width: 70%;
+        columns: 1;
+    }
+}
