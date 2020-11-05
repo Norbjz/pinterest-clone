@@ -295,6 +295,7 @@ div .img_text {
 
 .img_text:hover {
     opacity: 98%;
+    cursor: pointer;
 }
 
 
@@ -359,10 +360,12 @@ div .img_icons {
 
 .icon_share:hover {
     opacity: 98%;
+    cursor: pointer;
 }
 
 .icon_select:hover {
     opacity: 98%;
+    cursor: pointer;
 }
 
 @media (max-width: 1695px) {
